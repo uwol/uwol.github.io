@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://uwol.github.io/</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://uwol.github.io/docs/2015-06_CEF2015-322.pdf</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://uwol.github.io/docs/2011-07_ICSOFT_2011_99_CR.pdf</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://uwol.github.io/docs/2009-09_WASL_Technical_Report_1.0.pdf</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://uwol.github.io/docs/2008-06_WAML08WoKu.pdf</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://uwol.github.io/docs/2012-05_phdthesis_wolffgang.pdf</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://uwol.github.io/docs/2008-01_thesis_wolffgang.pdf</loc>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
