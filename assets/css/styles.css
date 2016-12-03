@@ -120,6 +120,9 @@ p {
   margin-bottom: 1.125em;
 }
 
+.sidebar-wrapper .contact-container .contact-list {
+  margin-bottom: 2em;
+}
 
 .sidebar-wrapper .contact-container .contact-list .fa {
   margin-right: 0.25em;
@@ -127,10 +130,6 @@ p {
 
 .sidebar-wrapper .contact-container .contact-list li {
   margin-bottom: 1.125em;
-}
-
-.sidebar-wrapper .contact-container .contact-list li:last-child {
-  margin-bottom: 0;
 }
 
 
