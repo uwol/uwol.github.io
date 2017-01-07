@@ -241,7 +241,7 @@ p {
 .main-wrapper .project-title {
   color: #3F4650;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.125em;
   font-weight: 500;
 }
 
