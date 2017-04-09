@@ -30,7 +30,6 @@
       "honorificPrefix": "Dr.",
       "name": "Ulrich Wolffgang",
       "homeLocation": "Germany",
-      "jobTitle": "CTO &amp; Co-Founder nitro.ai",
       "email": "u.wol@wwu.de",
       "image": "https://uwol.github.io/assets/images/profile.jpg",
       "url": [
@@ -54,7 +53,6 @@
       <div class="profile-container">
         <img class="profile img-circle img-responsive center-block" src="assets/images/profile.jpg" alt="Profile" />
         <h1 class="name">Ulrich Wolffgang</h1>
-        <h3 class="tagline">CTO &amp; Co-Founder <a href="http://nitro.ai">nitro.ai</a></h3>
       </div>
       <div class="contact-container container-block">
         <ul class="list-unstyled contact-list">
@@ -89,44 +87,25 @@
 
     <div class="main-wrapper">
       <section id="projects" class="section projects-section">
-        <h2 class="section-title"><i class="fa fa-briefcase"></i>Projects</h2>
+        <h2 class="section-title"><i class="fa fa-code"></i>Projects</h2>
         <div class="item">
           <script type="application/ld+json">
             {
               "@context": "http://schema.org",
               "@type": "SoftwareSourceCode",
-              "name": "Multi-platform bot framework for Java",
-              "codeRepository": "https://github.com/nitro-code/bot4j"
-            }
-          </script>
-          <div class="meta">
-            <div class="upper-row">
-              <h3 class="project-title">Multi-platform messenger bot framework</h3>
-            </div>
-            <div class="repository"><i class="fa fa-github"></i> <a href="https://github.com/nitro-code/bot4j">nitro-code/bot4j</a></div>
-          </div>
-          <div class="details">
-            <p>Development of a multi-platform bot framework for Java, which provides natural language processing (NLP) capabilities and integrates into messenger platforms such as Facebook and Slack.</p>
-          </div>
-        </div>
-        <div class="item">
-          <script type="application/ld+json">
-            {
-              "@context": "http://schema.org",
-              "@type": "SoftwareSourceCode",
-              "name": "ANTLR4 parser for COBOL 85",
+              "name": "ANTLR4-based parser and grammar for Cobol 85",
               "codeRepository": "https://github.com/uwol/cobol85parser"
             }
           </script>
           <div class="meta">
             <div class="upper-row">
-              <h3 class="project-title">ANTLR4 grammar and parser for COBOL 85</h3>
+              <h3 class="project-title">ANTLR4-based parser and grammar for Cobol 85</h3>
             </div>
             <div class="repository"><i class="fa fa-github"></i> <a href="https://github.com/uwol/cobol85parser">uwol/cobol85parser</a></div>
           </div>
           <div class="details">
-            <p>Authorship of the ANTLR4 grammar and parser for the programming language COBOL 85 in the <a href="https://github.com/antlr/grammars-v4/">ANTLR4 open source project</a>.</p>
-            <p>The parser passes the <a href="http://www.itl.nist.gov">NIST</a> COBOL test suite and has been applied for parsing COBOL production source code.</p>
+            <p>Development of the ANTLR4 grammar and parser for the programming language COBOL 85 in the <a href="https://github.com/antlr/grammars-v4/">ANTLR4 open source project</a>.</p>
+            <p>The parser passes the <a href="http://www.itl.nist.gov">NIST</a> COBOL test suite and has been applied by legacy modernization companies for parsing COBOL source code.</p>
           </div>
         </div>
         <div class="item">
@@ -134,19 +113,19 @@
             {
               "@context": "http://schema.org",
               "@type": "SoftwareSourceCode",
-              "name": "ANTLR4 parser for Visual Basic 6.0",
+              "name": "ANTLR4-based parser and grammar for Visual Basic 6.0",
               "codeRepository": "https://github.com/uwol/vb6parser"
             }
           </script>
           <div class="meta">
             <div class="upper-row">
-              <h3 class="project-title">ANTLR4 grammar and parser for Visual Basic 6.0</h3>
+              <h3 class="project-title">ANTLR4-based parser and grammar for Visual Basic 6.0</h3>
             </div>
             <div class="repository"><i class="fa fa-github"></i> <a href="https://github.com/uwol/vb6parser">uwol/vb6parser</a></div>
           </div>
           <div class="details">
-            <p>Authorship of the ANTLR4 grammar and parser for the programming language Visual Basic 6.0 in the <a href="https://github.com/antlr/grammars-v4/">ANTLR4 open source project</a>.</p>
-            <p>A derivative of the grammar is applied at the core of the <a href="http://rubberduckvba.com">Rubberduck VBA project</a>, which enables unit testing, refactoring and code inspection in the Visual Basic Editor (VBE).</p>
+            <p>Development of the ANTLR4 grammar and parser for the programming language Visual Basic 6.0 in the <a href="https://github.com/antlr/grammars-v4/">ANTLR4 open source project</a>.</p>
+            <p>The grammar is applied at core of the <a href="http://rubberduckvba.com">Rubberduck VBA project</a>, which enables unit testing, refactoring and code inspection in the Visual Basic Editor (VBE).</p>
           </div>
         </div>
         <div class="item">
@@ -165,14 +144,33 @@
             <div class="repository"><i class="fa fa-github"></i> <a href="https://github.com/uwol/ComputationalEconomy">uwol/ComputationalEconomy</a></div>
           </div>
           <div class="details">
-            <p>Development of an agent-based computational economics simulator, which implements an Arrow-Debreu-like general equilibrium model according to neoclassical theory and traditional marginalism based on agent types household, factory, trader, credit bank, central bank and state.</p>
+            <p>Development of an agent-based computational economics simulator, which implements an Arrow-Debreu-like general equilibrium model based on agent types household, factory, trader, credit bank, central bank and state.</p>
             <p>Presented at 21st Int. Conf. on Computing in Economics and Finance (CEF 2015), June 20-22, 2015, Taipei, Taiwan.</p>
+          </div>
+        </div>
+        <div class="item">
+          <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "SoftwareSourceCode",
+              "name": "Multi-platform bot framework for Java",
+              "codeRepository": "https://github.com/nitroai/bot4j"
+            }
+          </script>
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="project-title">Multi-platform messenger bot framework</h3>
+            </div>
+            <div class="repository"><i class="fa fa-github"></i> <a href="https://github.com/nitroai/bot4j">nitroai/bot4j</a></div>
+          </div>
+          <div class="details">
+            <p>Development of a multi-platform bot framework with natural language processing (NLP) capabilities and messenger platform integration.</p>
           </div>
         </div>
       </section>
 
       <section id="publications" class="section publications-section">
-        <h2 class="section-title"><i class="fa fa-archive"></i>Publications</h2>
+        <h2 class="section-title"><i class="fa fa-font"></i>Publications</h2>
         <div class="item">
           <script type="application/ld+json">
             {
@@ -321,7 +319,7 @@
       </section>
 
       <section class="section theses-section">
-        <h2 class="section-title"><i class="fa fa-book"></i>Theses</h2>
+        <h2 class="section-title"><i class="fa fa-graduation-cap"></i>Theses</h2>
         <div class="item">
           <script type="application/ld+json">
             {
