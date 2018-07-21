@@ -237,7 +237,6 @@ p {
   margin-bottom: 0.125em;
 }
 
-.main-wrapper .job-title,
 .main-wrapper .project-title {
   color: #3F4650;
   margin-top: 0;
@@ -264,18 +263,19 @@ p {
 }
 
 .main-wrapper .projects-section .intro,
-.main-wrapper .projects-section .item,
-.main-wrapper .experiences-section .item {
+.main-wrapper .projects-section .item {
   margin-bottom: 3em;
 }
 
 .main-wrapper .publications-section .item,
-.main-wrapper .theses-section .item {
+.main-wrapper .theses-section .item,
+.main-wrapper .talks-section .item {
   margin-bottom: 1.5em;
 }
 
-.main-wrapper .publication-title{
-  font-style: italic;;
+.main-wrapper .publication-title,
+.main-wrapper .talk-title {
+  font-style: italic;
 }
 
 .skillset .item {
