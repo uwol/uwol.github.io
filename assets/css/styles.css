@@ -262,6 +262,10 @@ p {
   color: #97AAC3;
 }
 
+.main-wrapper .repository a {
+  margin-right: 0.75em;
+}
+
 .main-wrapper .projects-section .intro,
 .main-wrapper .projects-section .item {
   margin-bottom: 3em;
